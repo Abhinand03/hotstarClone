@@ -5,7 +5,7 @@ import { FaPlay, FaPlus } from "react-icons/fa";
 
 function BannerIntro({ details }) {
   return (
-    <div className="h-full  bg-gradient-to-r from-black to-transparent text-white pl-4 ">
+    <div className="h-full  bg-gradient-to-r from-[#0F1014] to-transparent text-white pl-4 ">
       <div className="flex flex-col justify-end h-full relative bottom-10">
         <p className="text-5xl font-bold">{details?.title}</p>
         <div className="flex gap-3 my-6">
